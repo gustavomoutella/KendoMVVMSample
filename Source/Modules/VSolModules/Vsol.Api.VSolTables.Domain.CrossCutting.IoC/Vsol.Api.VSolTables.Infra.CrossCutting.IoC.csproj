@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vsol.Api.VSolTables.Application\Vsol.Api.VSolTables.Application.csproj" />
+    <ProjectReference Include="..\Vsol.Api.VSolTables.Data\Vsol.Api.VSolTables.Infra.Data.csproj" />
+    <ProjectReference Include="..\Vsol.Api.VSolTables.Domain\Vsol.Api.VSolTables.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

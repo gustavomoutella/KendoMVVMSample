@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Vsol.Api.AppSecurity.Application</AssemblyName>
+    <RootNamespace>Vsol.Api.AppSecurity.Application</RootNamespace>
+    <PackageId>Vsol.Api.AppSecurity.Application</PackageId>
+    <Authors>Vsol.Api.AppSecurity.Application</Authors>
+    <Company>Vsol.Api.AppSecurity.Application</Company>
+    <Product>Vsol.Api.AppSecurity.Application</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Vsol.Api.Shared.Application\Vsol.Api.Shared.Application.csproj" />
+    <ProjectReference Include="..\Domain\Vsol.Api.AppSecurity.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

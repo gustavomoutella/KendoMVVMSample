@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-3">
+        <h2>Login</h2>
+        <input type="text" id="login" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3">
+        <h2>Password</h2>
+        <input type="password" id="pass" />
+    </div>
+</div>
+
+<input type="button" id="GetToken" value="Login" />
+<hr />
+<input type="button" id="UseToken" value="Use Token" style="display: none;" />
+<div id="result"></div>

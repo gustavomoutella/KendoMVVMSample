@@ -1,0 +1,8 @@
+C:\Users\Gustavo\source\repos\VsolPresentation\Vsol.Api\Vsol.Api\bin\Debug\netcoreapp1.1\Vsol.Api.deps.json
+C:\Users\Gustavo\source\repos\VsolPresentation\Vsol.Api\Vsol.Api\bin\Debug\netcoreapp1.1\Vsol.Api.runtimeconfig.json
+C:\Users\Gustavo\source\repos\VsolPresentation\Vsol.Api\Vsol.Api\bin\Debug\netcoreapp1.1\Vsol.Api.runtimeconfig.dev.json
+C:\Users\Gustavo\source\repos\VsolPresentation\Vsol.Api\Vsol.Api\bin\Debug\netcoreapp1.1\Vsol.Api.dll
+C:\Users\Gustavo\source\repos\VsolPresentation\Vsol.Api\Vsol.Api\obj\Debug\netcoreapp1.1\Vsol.Api.csprojResolveAssemblyReference.cache
+C:\Users\Gustavo\source\repos\VsolPresentation\Vsol.Api\Vsol.Api\obj\Debug\netcoreapp1.1\Vsol.Api.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo\source\repos\VsolPresentation\Vsol.Api\Vsol.Api\obj\Debug\netcoreapp1.1\Vsol.Api.AssemblyInfoInputs.cache
+C:\Users\Gustavo\source\repos\VsolPresentation\Vsol.Api\Vsol.Api\obj\Debug\netcoreapp1.1\Vsol.Api.AssemblyInfo.cs

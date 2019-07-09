@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Vsol.Api.Shared.Application\Vsol.Api.Shared.Application.csproj" />
+    <ProjectReference Include="..\Vsol.Api.VSolTables.Domain\Vsol.Api.VSolTables.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vsol.Api.Shared.Domain\Vsol.Api.Shared.Domain.csproj" />
+    <ProjectReference Include="..\Vsol.Api.Shared.Infra.Data\Vsol.Api.Shared.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

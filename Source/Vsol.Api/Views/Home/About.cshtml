@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Kendo Example";
+}
+<h2>@ViewData["Title"].</h2>
+
+<div id="example">
+    <div class="demo-section k-content wide">
+        <div>
+            <h4>Add or update a record</h4>
+            <div data-role="grid"
+                 data-editable="true"
+                 data-toolbar="['create', 'save']"
+                 data-columns="[
+                                 { 'field': 'ProductName', 'width': 270 },
+                                 { 'field': 'UnitPrice' },
+                                 { 'field': 'UnitsInStock' }
+                              ]"
+                 data-bind="source: products,
+                            visible: isVisible,
+                            events: {
+                              save: onSave
+                            }"
+                 style="height: 200px"></div>
+        </div>
+        
+    </div>
+</div>
+<script src="~/js/Views/Product.js" asp-append-version="true"></script>
+<script>
+    kendo.bind($("#example"), viewModel);
+</script>
